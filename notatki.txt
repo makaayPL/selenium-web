@@ -1,0 +1,128 @@
+Selenium Web Driver 18.01.2020
+
+Zalety i wady
+
+1. Powtarzalnosc
+2. Skalowalnosc
+3. Dokladnosc powtorzen
+4. Wykonywanie testow, ktorych nie da sie wykonac manulanie (testy obciazeniowe)
+5. Oszczednosc czasu - regersje
+
+Czego nie automatyzujemy
+1. Przypadki testowe
+2. T. Eksploratcyjen - "lazenie po aplikacji"
+3. T. Uzytecznosci (UX)
+!! automatyujemy wszytskie przypadki albo wcale
+
+testerzy.pl/baza-wiedzy/
+
+Jak sie uczyc
+1. Podstway programowania
+2. Google/StackOverflow
+3. Nie zniechecamy wszytskie
+4. Staramy sie zrozumiec jak cos ma dzialac
+5. Korzystamy z dokumentacji
+
+
+Test powinny byc niezalezne od siebie
+
+Narzedia do
+1. desktopu
+- ranorex
+- test complete
+- sahi pro
+
+2. Mobilne
+- appium
+
+3. Web
+- protractor
+
+
+Selenium
+zestaw narzedzi do automatyzacji
+zbieranie informacji (web scrapping)
+
+selenium IDE (dodatek do ff)
+selenium RC
+selenium WEBDRIVER
+selenium GRID
+
+test.py -> driver -> firefox
+
+
+sudo apt install virtualenv
+sudo apt install python3-pip
+
+
+---------------------
+SKPRAWDZENIE CZY DZIALA
+
+from selenium import webdriver
+from time import sleep
+
+driver = webdriver.Chrome()
+sleep(5)
+driver.close()
+
+----------------------
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+Rejestracja na automationpractice.com
+
+Warunki wstepne:
+Konto o podanym mailu nie jest zalozone
+
+Kroki:
+0. Kliknij Sign in
+1. Wpisz unikalnego emaila
+2. Kliknij "Create account"
+3. Wybierz tytul (Mr./Mrs.)
+4. Wpisz imie
+5. Wpisz nazwisko
+6. Sprawdz poprawnosc maila
+7. Wpisz haslo
+8. Sprawdz poprawnosc imienia
+9. Sprawdz poprawnosc nazwiska
+10. Wpisz adres
+11. Wpisz miasto
+12. Wybierz stan
+13. Wpisz kod pocztowy
+14. Wybierz kraj
+15. Wpisz numer telefonu
+16. Wpisz alias adresu
+(17. Kliknij Zarejestruj)
+
+Oczekiwany rezultat:
+Brak informacji o bledach
+(Konto zostalo zalozone)
+
+
+https://topswagcode.com/xpath => nauka xpath
