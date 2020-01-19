@@ -67,34 +67,6 @@ driver.close()
 
 ----------------------
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
 Rejestracja na automationpractice.com
 
 Warunki wstepne:
@@ -130,3 +102,5 @@ http://wklejto.pl/801718
 http://wklejto.pl/801730
 
 https://topswagcode.com/xpath => nauka xpath
+
+git z zajec => https://github.com/kkolans/2020/tree/master/Wizzair/PageObjectPattern

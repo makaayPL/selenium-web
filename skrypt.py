@@ -190,8 +190,11 @@ class WsbPlCheck(unittest.TestCase):
         sleep(3)
 
         # NOT correct registartion
-        self.driver.find_elements_by_xpath("//div[@class='alert alert-danger']//p[contains(., 'There are 1 error')]")
-        self.driver.find_elements_by_xpath("//div[@class='alert alert-danger']//div[@class='alert alert-danger']//li[contains(.,'lastname is required')]")
+        errorMessage = self.driver.find_elements_by_xpath("//div[@class='alert alert-danger']//p[contains(., 'There is 1 error')]")
+        assert errorMessage[0].is_displayed()
+
+        errorMessageContent = self.driver.find_elements_by_xpath("//div[@class='alert alert-danger']//li[contains(.,'firstname is required')]")
+        assert errorMessageContent[0].is_displayed()
 # uruchom test jesli uruchamiamy ten plik
 if __name__ == "__main__":
     unittest.main()
